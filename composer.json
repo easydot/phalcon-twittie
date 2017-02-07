@@ -21,11 +21,8 @@
 
     "autoload": {
         "psr-4": {
-            "Multidanze\\Mailer\\": "src/"
-        },
-        "files": [
-            "src/helpers.php"
-        ]
+            "Multidanze\\Twittie\\": "src/"
+        }
     },
 
     "require": {
