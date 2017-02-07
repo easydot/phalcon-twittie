@@ -1,0 +1,44 @@
+{
+    "name": "multidanze/phalcon-twittie",
+    "description": "Phalcon Twitter Module.",
+    "type": "library",
+    "keywords" : [
+        "phalcon",
+        "phalcon twittie"
+    ],
+    "support": {
+        "issues": "https://github.com/multidanze/phalcon-twittie/issues"
+    },
+    "minimum-stability": "stable",
+    "homepage" : "https://github.com/multidanze/phalcon-twittie",
+    "license" : "MIT",
+    "authors" : [{
+        "name": "multidanze",
+        "email": "multidanze@gmail.com",
+        "homepage": "http://easydot.gr",
+        "role": "Developer"
+    }],
+
+    "autoload": {
+        "psr-4": {
+            "Multidanze\\Mailer\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+
+    "require": {
+        "php": ">=5.4.0",
+        "abraham/twitteroauth": "~0.7.2"
+    },
+    "require-dev": {
+        "phalcon/devtools": "~2.0"
+    },
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.*-dev"
+        }
+    }
+}
