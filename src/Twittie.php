@@ -81,12 +81,6 @@ class Twittie
         }
 
         $tweets = $connection->get($url, $params);
-
-        // Return JSON Object
-        header('Content-Type: application/json');
-
-        $tweets = json_encode($tweets);
-//        if(CACHE_ENABLED) file_put_contents($cache_path . $cache_key, $tweets);
         return $tweets;
     }
 
